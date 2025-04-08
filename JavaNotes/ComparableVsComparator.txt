@@ -1,0 +1,30 @@
+Difference between Comparable and Comparator
+
+|______________________________________________________________________________________________________________________________
+|   		Comparable   				 	                            |			Comparator                                                     |
+|______________________________________________________________________________________________________________________________+
+|   1. It is an interface in java.lang 		                | 1. Interface in java.util package                                  |
+|   package									                              |                                                                    |
+|---------------------------------------------------------+--------------------------------------------------------------------|
+|    										                                  |                                                                    |
+|    2. It is used to define natural sorting              | 2. It is used to define custom sorting logic.                      |
+|    of objects.								                          |   ()                                                               |
+|---------------------------------------------------------+--------------------------------------------------------------------|
+|    										                                  |	                                                                   |
+|    3. A class implements comparable when 	              | 3. You can write multiple comparators for different                |
+|    its objects can be compared to each 	                |   sorting conditions like sort by name , age, dob etc.             |
+|    other.									                              |                                                                    |
+|---------------------------------------------------------+--------------------------------------------------------------------|
+|    										                                  |                                                                    |
+|   4. Example: compareTo(Classname object)	              | 4. Example: compare(classname object1, classname object2)          |
+|---------------------------------------------------------+--------------------------------------------------------------------|
+|    										                                  |                                                                    |
+|    5. Collections.sort(listobject);		                  | 5. Collections.sort(listobject, ClassObject);                      |
+|---------------------------------------------------------+--------------------------------------------------------------------|
+|    										                                  |                                                                    |
+|    6. Best for sorting by a single field.	              | 6. Can be used to sort by multiple fields.                         |
+|_______________________________________________________________________________________________________________________________+
+
+Linked 	- Sequencial 
+Hash	- Random
+Tree	- Ascending
