@@ -1,0 +1,11 @@
+What is multithreading?
+------------------------
+Ans: It is a process divided into number of tasks, each task is represented or called it as a Thread.
+that means a thread is light weight of a process. Number of such threads  within a process execute at a time is called 'multithreading'.
+The Operating System's additional capability is supporting multithreading.
+
+One process, One Thread:	 MS-DOS
+One Process, Multiple Threads: 	JRE (many libraries are invoked)
+Multiple Process, One Thread per Process: 	Unix
+Multiple Process: 	(Multiple Threds per process ) Solaris , Windows 2000 , Linux.
+
